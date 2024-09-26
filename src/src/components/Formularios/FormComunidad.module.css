@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,300&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('../Assets/artesano.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.wrapper{
+    width: 700px;
+    background: white;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(30px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color:black;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+
+.contenedor {
+  text-align: center;
+}
+
+.logo {
+  display: block; 
+  margin: 0 auto; 
+  width: 200px;
+  height: auto;
+}
+
+label{
+    display: block;
+}
+input{
+    width: 60%;
+}
+p {
+    display: block;
+    color:red;
+    font-size:16px;
+}
+
+.titleCentered {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: black; 
+}
+
+.sectionTitle {
+    border-bottom: 2px solid #ccc; 
+    padding-bottom: 5px; 
+    margin-bottom: 15px; 
+    font-size: 30px;
+    font-weight: bold; 
+  }
+  
+input {
+    border: none;
+    font-size: 16px;
+    height: auto;
+    margin: 0;
+    outline: 0;
+    padding: 15px;
+    width: 100%;
+    background-color: #e0ba96;
+    color: black;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+    margin-bottom: 30px;
+    border-radius: 25px; 
+  }
+  textarea {
+    border: none;
+    font-size: 16px;
+    height: auto; 
+    margin: 0;
+    outline: 0;
+    padding: 15px;
+    width: 100%; 
+    background-color: #e0ba96; 
+    color:black; 
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset; 
+    margin-bottom: 30px; 
+    border-radius: 10px; 
+    resize: vertical; 
+    min-height: 100px; 
+    max-height: 300px; 
+    overflow-y: auto; 
+  }
+  
+  .dragDropBox {
+    border: 2px dashed #ddd;
+    border-radius: 4px;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    background-color: #e0ba96;
+    width: 100%; 
+    height: 200px; 
+    overflow: hidden; 
+  }
+  
+  .previewImage {
+    width: 300px; 
+    height: 100%; 
+    object-fit: cover; 
+    display: block; 
+}
+
+.selectInput {
+    width: 100%; 
+    padding: 10px; 
+    font-size: 20px; 
+    border: 1px solid #ccc; 
+    background-color: #e0ba96;
+    border-radius: 25px; 
+}
+  
+
+  input[type="text"] {
+    transition: border 0.3s ease-in-out;
+  }
+  
+  input[type="text"]:focus {
+    border: 1px solid black;
+  }
+
+.errorInput {
+    border: 2px solid red; 
+    background-color: #ffe6e6; 
+    border-radius: 25px; 
+}
+  
+.errorInput::placeholder {
+    color: red; /* El placeholder muestra el mensaje de error en rojo */
+}
+
+.nombreComunidadTitle {
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+  
+.label {
+    font-size: 18px;    
+}
+
+.submitButton {
+    display: block; 
+    width: 250px; 
+    padding: 15px 20px; 
+    font-size: 18px; 
+    background-color: #e0ba96; 
+    color: white; 
+    border: none; 
+    border-radius: 20px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+    margin: 20px auto; 
+}
+  
+.submitButton:hover {
+    background-color:#9a6a3e; 
+}
+  
+.submitButton:active {
+    background-color:#e0ba96 ; 
+}
+
+.userIdDisplay {
+  margin: 10px 0;
+  font-weight: bold;
+  color: #0c9218; /* Cambia el color según tu diseño */
+}
